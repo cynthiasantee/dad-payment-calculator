@@ -5,7 +5,7 @@ import files from './redux/reducer/files'
 
 
 interface StateProps {
-    fileOne: string,
+    fileOne: string[][],
 }
 
 interface DispatchProps {
@@ -23,7 +23,6 @@ const FormOne = (props: StateProps & DispatchProps) => {
             if (typeof event?.target?.result === 'string') {
                 {props.addFile(event?.target?.result)}
             }
-            console.log(event?.target?.result)
         }
         reader.readAsText(file)
     }
@@ -31,8 +30,8 @@ const FormOne = (props: StateProps & DispatchProps) => {
     return(
         <div>
             <form action="/action_page.php">
+            <label>Upload trips</label>
             <input type="file" id="myFile1" name="filename" onChange={onFileUpload}/>
-            <input type="submit"/>
             </form>
         </div>
     )
