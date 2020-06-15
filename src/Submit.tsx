@@ -18,7 +18,7 @@ const Submit = (props: StateProps & DispatchProps) => {
         <div>
             <input onClick={props.calculate} type='submit'></input>
             <p>Payment amount: {JSON.stringify(props.payPerDriver)}</p>
-            <p>Undound loads: {JSON.stringify(props.unfoundLoads)}</p>
+            <p>Unfound loads: {JSON.stringify(props.unfoundLoads)}</p>
         </div>
     )
 }
