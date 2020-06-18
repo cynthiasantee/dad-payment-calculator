@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dad-payment-calculator/static/css/main.5f361e03.chunk.css",
+    "main.js": "/dad-payment-calculator/static/js/main.3bdbae41.chunk.js",
+    "main.js.map": "/dad-payment-calculator/static/js/main.3bdbae41.chunk.js.map",
+    "runtime-main.js": "/dad-payment-calculator/static/js/runtime-main.92e7bfb0.js",
+    "runtime-main.js.map": "/dad-payment-calculator/static/js/runtime-main.92e7bfb0.js.map",
+    "static/js/2.e3c49e75.chunk.js": "/dad-payment-calculator/static/js/2.e3c49e75.chunk.js",
+    "static/js/2.e3c49e75.chunk.js.map": "/dad-payment-calculator/static/js/2.e3c49e75.chunk.js.map",
+    "index.html": "/dad-payment-calculator/index.html",
+    "precache-manifest.1f88d4fa5a8b1806f0cdfb9f1d2033fd.js": "/dad-payment-calculator/precache-manifest.1f88d4fa5a8b1806f0cdfb9f1d2033fd.js",
+    "service-worker.js": "/dad-payment-calculator/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/dad-payment-calculator/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.e3c49e75.chunk.js.LICENSE.txt": "/dad-payment-calculator/static/js/2.e3c49e75.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92e7bfb0.js",
+    "static/js/2.e3c49e75.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.3bdbae41.chunk.js"
+  ]
+}
